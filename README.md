@@ -4,8 +4,8 @@ Add support for [doT].
 
 ## Install
 
-```
+``` bash
 $ npm install hexo-renderer-dot --save
 ```
 
-[Jade]: http://olado.github.io/doT/
+[doT]: http://olado.github.io/doT/
