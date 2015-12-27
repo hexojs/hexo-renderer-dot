@@ -1,8 +1,5 @@
-var Hexo = require('hexo');
-var hexo = new Hexo(process.cwd(), {});
+/* global hexo */
 
-var dot = require('dot');
+'use strict';
 
-hexo.extend.renderer.register('dot', 'html', function(data, locals){
-  return dot.template(data.text)(locals);
-}, true);
+hexo.extend.renderer.register('dot', 'html', require('./lib/renderer'), true);

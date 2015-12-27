@@ -1,6 +1,6 @@
-# [doT] renderer
+# hexo-renderer-dot
 
-[![npm version][npm-badge]][npm-url]
+[![Build Status](https://travis-ci.org/hexojs/hexo-renderer-dot.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-dot)  [![NPM version](https://badge.fury.io/js/hexo-renderer-dot.svg)](http://badge.fury.io/js/hexo-renderer-dot) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-dot.svg)](https://coveralls.io/r/hexojs/hexo-renderer-dot?branch=master)
 
 Add support for [doT].
 
@@ -11,5 +11,3 @@ $ npm install hexo-renderer-dot --save
 ```
 
 [doT]: http://olado.github.io/doT/
-[npm-badge]: https://badge.fury.io/js/hexo-renderer-dot.svg
-[npm-url]: https://badge.fury.io/js/hexo-renderer-dot
