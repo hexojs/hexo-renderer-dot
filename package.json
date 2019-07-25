@@ -2,12 +2,19 @@
   "name": "hexo-renderer-dot",
   "version": "0.2.0",
   "description": "doT renderer plugin for Hexo",
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
     "test-cov": "istanbul cover _mocha --print both test/index.js"
   },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "repository": "hexojs/hexo-renderer-dot",
   "keywords": [
     "hexo",
