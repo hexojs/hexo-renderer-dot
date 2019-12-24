@@ -1,6 +1,6 @@
 'use strict';
 
-const should = require('chai').should(); // eslint-disable-line
+require('chai').should();
 
 describe('hexo-renderer-dot', () => {
   const r = require('../lib/renderer');
@@ -12,6 +12,14 @@ describe('hexo-renderer-dot', () => {
       name: 'John',
       age: 31
     });
+
+    result.should.eql('Hi John! 31');
+  });
+
+  it('compile', () => {
+    const body = 'Hi {{=it.name}}! {{=it.age}}';
+    const render = r.compile({ text: body });
+    const result = render({ name: 'John', age: 31 });
 
     result.should.eql('Hi John! 31');
   });
