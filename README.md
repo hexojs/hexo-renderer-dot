@@ -1,6 +1,6 @@
 # DEPRECATED!
 
-hexo-renderer-haml has been deprecated. Please use other renderer (e.g, [Nunjuks](https://github.com/hexojs/hexo-renderer-nunjucks), [EJS](https://github.com/hexojs/hexo-renderer-ejs))
+hexo-renderer-dot has been deprecated. Please use other renderer (e.g, [Nunjuks](https://github.com/hexojs/hexo-renderer-nunjucks), [EJS](https://github.com/hexojs/hexo-renderer-ejs))
 
 # hexo-renderer-dot
 
